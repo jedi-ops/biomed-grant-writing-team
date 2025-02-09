@@ -1,0 +1,29 @@
+[project]
+name = "biomedgrant"
+version = "0.0.1"
+description = "BioMed Grant Writing Agent Team"
+requires-python = ">=3.13"
+authors = [
+    {name = "Tobalo", email = "tobalo@yeetum.com"}
+]
+dependencies = [
+    "agno",
+    "google-generativeai"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
