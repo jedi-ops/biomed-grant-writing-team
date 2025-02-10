@@ -1,4 +1,8 @@
 # BioMed Grant Writing Agent Team
+### TODO
+- [ ] Augmented research tooling (web search, knowledge base document loading, arxiv)
+- [ ] Refined documents and artifact creation
+- [ ] Augmented workflow UI via streamlit or such for non-technical users to trigger and use
 
 ## Workflow
 ```mermaid
